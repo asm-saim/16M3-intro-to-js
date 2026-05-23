@@ -1,0 +1,168 @@
+=============================
+Math Needed for Programming
+=============================
+
+# 1. Number
+Types of numbers:
+- Positive Number (+ve): 2, 5, 10
+- Negative Number (-ve): -4, -9
+- Zero: 0
+
+# 2. Integer
+Whole numbers without decimal points.
+
+Examples:
+23, 44, 2, 5
+
+Types:
+- Odd Number: 3, 5, 7
+- Even Number: 2, 4, 6
+
+# 3. Float / Decimal Number
+Numbers with decimal points.
+
+Examples:
+2.3, 5.77, 9.99
+
+# 4. Basic Operations
+Addition:       +
+Subtraction:    -
+Multiplication: *
+Division:       /
+
+Examples:
+5 + 3 = 8
+10 - 4 = 6
+3 * 4 = 12
+20 / 5 = 4
+
+# 5. Modulus Operator (%)
+Returns the remainder after division.
+
+Examples:
+10 % 3 = 1
+15 % 2 = 1
+20 % 5 = 0
+
+Common Uses:
+- Check odd/even
+- Cyclic operations
+- Game logic
+
+# 6. Percentage
+Formula: (Part / Total) * 100
+
+Examples:
+5% of 200
+= (5 / 100) * 200
+= 10
+
+10% of 500
+= (10 / 100) * 500
+= 50
+
+# 7. Sum
+Adding multiple numbers together.
+
+Examples:
+15 + 33 + 55 = 103
+
+# 8. Average (Avg)
+Formula:
+Sum of numbers / Total numbers
+
+Examples:
+22 + 44 + 55 = 121
+
+Average:
+121 / 3 = 40.33
+
+# 9. Maximum and Minimum
+- Maximum = Biggest number
+- Minimum = Smallest number
+
+Examples:
+22, 64, 232
+
+Maximum = 232
+Minimum = 22
+
+# 10. Series
+A sequence of numbers.
+
+Examples:
+1, 2, 3, 4, 5
+2, 4, 6, 8, 10
+
+Common Types:
+- Increasing Series
+- Decreasing Series
+- Fibonacci Series
+
+Fibonacci Example:
+0, 1, 1, 2, 3, 5, 8
+
+# 11. Area
+Area means surface size.
+
+Triangle Area Formula:
+(area = 0.5 * base * height)
+
+
+::contentReference[oaicite:0]{index=0}
+
+
+Rectangle Area:
+(area = length * width)
+
+:contentReference[oaicite:1]{index=1}
+
+Circle Area:
+
+::contentReference[oaicite:2]{index=2}
+
+
+# 12. Useful Programming Math Concepts
+
+1. Comparison: >, <, >=, <=, ==, !=
+
+Examples:
+5 > 3  -> true
+10 == 10 -> true
+
+2. Power: 2^3 = 8
+
+3. Square Root: √16 = 4
+
+4. Random Number: Used in games and simulations.
+
+5. Logic:
+AND (&&)
+OR (||)
+NOT (!)
+
+# Why Math is Important in Programming
+Math helps in:
+- Problem solving
+- Game development
+- Data science
+- AI & Machine Learning
+- Graphics & animation
+- Competitive programming
+- Backend calculations.
+
+# math needed for Programming:
+
+1. Number: +ve, -ve, 0 [2,-4, 0]
+2. Integer: 23, 44, 2, 5 [odd/even].
+3  float: 2.3, 5.77
+4. Operation: +, -, *, /
+5. More Operation: module- % []
+6.Percentage: 5%, what is th percentage of 10% of 500$.
+7.Sum: 15,33,55
+8. Avg: 22, 44, 55
+9. max/min: 22,64,232
+10. Series:
+11. Area: Triangel ...
+12. 
+    

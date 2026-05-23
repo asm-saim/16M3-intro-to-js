@@ -1,0 +1,100 @@
+========================
+JavaScript Data Types
+========================
+
+# 1. Number
+Used for numeric values.
+
+Example:
+var age = 45;
+
+console.log(age);
+console.log(typeof age);
+
+Output:
+45
+number
+
+# 2. String
+Used for text values.
+Text must be inside "" or ''.
+
+Example:
+var name = "Mercedes";
+
+console.log(name);
+console.log(typeof name);
+
+Output:
+Mercedes
+string
+
+# 3. Boolean
+Used for true/false values.
+
+Example:
+var rain = true;
+
+console.log(rain);
+console.log(typeof rain);
+
+Output:
+true
+boolean
+
+# 4. Undefined
+A variable that is declared but not assigned any value.
+
+Example:
+var box;
+
+console.log(box);
+console.log(typeof box);
+
+Output:
+undefined
+undefined
+
+# 5. Null
+Represents an empty or intentionally unknown value.
+
+Example:
+var data = null;
+
+console.log(data);
+console.log(typeof data);
+
+Output:
+null
+object (this is a known JavaScript bug/behavior)
+
+# typeof
+Used to check the data type of a variable.
+
+Syntax:
+typeof variableName
+
+# Correct Code Example
+
+var age = 45;
+console.log(typeof age);
+
+var name = "Mercedes";
+console.log(typeof name);
+
+var rain = true;
+console.log(typeof rain);
+
+# Note
+Wrong:
+console.group(typeof name);
+
+Correct:
+console.log(typeof name);
+
+# Main Data Types in JavaScript
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null

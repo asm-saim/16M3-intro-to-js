@@ -1,0 +1,128 @@
+========================
+JavaScript Variables
+========================
+
+# Variable
+A variable is like a container or storage place where we can store data.
+
+The value inside a variable can change later.
+
+# Meaning of Variable
+variable = vary + able
+
+Meaning:
+- "vary" = change
+- "able" = capable of changing
+
+# Variable Syntax
+
+Example:
+var age = 30;
+
+# 5 Parts of a Variable
+Example:
+var age = 30;
+
+1. var      -> keyword
+2. age      -> variable name
+3. =        -> assignment operator
+4. 30       -> value
+5. ;        -> statement ending (semicolon)
+
+# More Examples
+
+Store a number:
+var money = 678;
+
+Store a name:
+var userName = "Saim";
+
+Store a boolean:
+var isPassed = true;
+
+# Declaring Variable Without Value
+
+Example:
+var box;
+
+# Printing Variable
+console.log(box);
+
+Output:
+undefined
+
+# undefined
+If a variable is declared but no value is assigned,
+JavaScript automatically gives it:
+undefined
+
+# Run JavaScript File with Node.js
+
+Terminal Command:
+node variable.js
+
+# Rules for Naming Variables
+- Cannot start with number
+  Wrong:
+  var 2name = "Saim";
+
+- Can use:
+  * letters
+  * numbers
+  * underscore (_)
+  * dollar sign ($)
+
+Valid Examples:
+var myAge = 15;
+var user_name = "Saim";
+var $money = 500;
+
+# Case Sensitive
+JavaScript variables are case-sensitive.
+
+Example:
+var age = 20;
+var Age = 30;
+
+Both are different variables.
+
+# Best Practice
+Use meaningful variable names.
+
+Good:
+var studentAge = 15;
+
+Bad:
+var x = 15;
+
+# Updating Variable Value
+
+Example:
+var money = 500;
+money = 700;
+
+console.log(money);
+
+Output:
+700
+
+# Common Data Types in Variables
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
+
+Examples:
+var age = 15;              // Number
+var name = "Saim";         // String
+var isStudent = true;      // Boolean
+var box;                   // Undefined
+var data = null;           // Null
+ 
+
+// Variable -constant( no change) 
+const car = "red";
+console.log(car);
+
+// car ="green"; 

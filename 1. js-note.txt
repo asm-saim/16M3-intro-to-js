@@ -1,0 +1,85 @@
+========================
+JavaScript - Basic Notes
+========================
+
+# JavaScript
+- Created by Brendan Eich.
+- Standardized as ECMAScript (ES).
+
+# Script Tag
+Used to add JavaScript inside HTML.
+
+<script>
+    // JavaScript code
+</script>
+
+# JavaScript is a High-Level Language
+- Human-readable and easier to understand.
+- We do not need to manage low-level memory operations manually.
+
+# Running JavaScript
+
+1. In Browser Console
+- Open browser.
+- Right click -> Inspect -> Console.
+
+Example:
+console.log(58)
+
+Output:
+58
+
+2. In VS Code using Node.js
+
+Example:
+console.log(777)
+
+Run in terminal:
+C:\web_dev\16M3-intro-to-js>node intro-js.js
+
+Output:
+777
+
+# console.log()
+- Used to print/show output in console.
+
+Example:
+console.log(555)
+
+Output:
+555
+
+# Online JavaScript Editors
+You can practice JavaScript online using:
+- CodePen
+- JSFiddle
+- Replit
+
+# Important Notes
+- JavaScript is mainly used for making websites interactive.
+- JS can:
+  * Change HTML content
+  * Change CSS styles
+  * Handle button clicks
+  * Create animations
+  * Fetch data from APIs
+
+# Common File Extension
+JavaScript files use:
+.js
+
+Example:
+intro-js.js
+
+# Basic Syntax Rules
+- Statements usually end with semicolon (;)
+- JavaScript is case-sensitive.
+
+Example:
+myName != MyName
+
+# First JavaScript Example
+console.log("Hello JavaScript!");
+
+Output:
+Hello JavaScript!
