@@ -1,0 +1,61 @@
+========================
+JavaScript Operators
+========================
+
+# Operator
+Symbols used to perform operations.
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+% Modulus
+= Assignment
+** Power/Exponent
+
+# Operand
+Values used in operations.
+Example: x + y
+x and y are operands.
+
+# Operation
+Full calculation process.
+Example: x + y = 45
+
+# Addition (+)
+var orange = 344;
+var berry = 569;
+var total = orange + berry;
+console.log(total); // 913
+
+# Subtraction (-)
+var x = 45;
+var y = 34;
+var sub = x - y;
+console.log(sub); // 11
+
+# Multiplication (*)
+var value1 = 34;
+var value2 = 56;
+var mul = value1 * value2;
+console.log(mul); // 1904
+
+# Division (/)
+var bat = 34;
+var ball = 23;
+var div = bat / ball;
+console.log(div); // 1.4782608695652173
+
+# Modulus (%)
+Returns remainder after division.
+var mod = bat % ball;
+console.log(mod); // 11
+
+# Exponent (**)
+Power calculation.
+console.log(2 ** 3); // 8
+
+# Important Notes
+- Use meaningful variable names
+- Print correct variable result
+- Avoid wrong logs like:
+  console.log(value1 + value2)

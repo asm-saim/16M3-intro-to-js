@@ -1,0 +1,53 @@
+========================
+JavaScript Shorthand Operators
+========================
+
+# Shorthand
+Short way to write operations on variables.
+
+# Addition (+=)
+var x = 10;
+x += 5;
+console.log(x); // 15
+
+# Subtraction (-=)
+var x = 10;
+x -= 3;
+console.log(x); // 7
+
+# Multiplication (*=)
+var x = 10;
+x *= 2;
+console.log(x); // 20
+
+# Division (/=)
+var x = 10;
+x /= 2;
+console.log(x); // 5
+
+# Modulus (%=)
+var x = 10;
+x %= 3;
+console.log(x); // 1
+
+# Power (**=)
+var x = 2;
+x **= 3;
+console.log(x); // 8
+
+# Increment (++)
+var x = 5;
+x++;
+console.log(x); // 6
+
+# Decrement (--)
+var x = 5;
+x--;
+console.log(x); // 4
+
+# Meaning
+x += 5  =>  x = x + 5
+x -= 3  =>  x = x - 3
+x *= 2  =>  x = x * 2
+x /= 2  =>  x = x / 2
+x %= 3  =>  x = x % 3
