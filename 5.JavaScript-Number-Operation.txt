@@ -1,0 +1,121 @@
+========================
+JavaScript Number Operations
+========================
+
+# Adding Numbers
+
+Example:
+var candy = 60;
+var orange = 300;
+
+console.log(candy + orange);
+
+Output:
+360
+
+# String + Number
+
+Example:
+var mango = "200";
+
+console.log(orange + mango);
+
+Output:
+300200
+
+Reason:
+- If one value is a string, JavaScript converts the other value to string and joins them.
+
+# parseInt()
+Converts string to integer.
+
+Example:
+var strawberry = parseInt("400");
+
+console.log(orange + strawberry);
+
+Output:
+700
+
+# parseFloat()
+Converts string to decimal number.
+
+Example:
+var avocado = parseFloat("25.5");
+
+console.log(strawberry + avocado);
+
+Output:
+425.5
+
+# Important Conversion Functions
+
+parseInt("400")     -> 400
+parseFloat("25.5")  -> 25.5
+
+# Floating Point Precision Problem
+
+Example:
+var number1 = 0.1;
+var number2 = 0.2;
+
+var total = number1 + number2;
+
+console.log(total);
+
+Output:
+0.30000000000000004
+
+Reason:
+- JavaScript stores decimal numbers in binary format.
+- Small precision errors can happen.
+
+# toFixed()
+Used to limit decimal places.
+
+Example:
+console.log(total.toFixed(2));
+
+Output:
+0.30
+
+# Important Note
+toFixed() returns a STRING.
+
+Example:
+typeof total.toFixed(2)
+
+Output:
+string
+
+# Convert Back to Number
+
+Example:
+console.log(parseFloat(total.toFixed(2)));
+
+Output:
+0.3
+
+# Infinity
+
+Example:
+var num = 50 / 0;
+var numNegative = -50 / 0;
+
+console.log(num);
+console.log(numNegative);
+
+Output:
+Infinity
+-Infinity
+
+# Special Number Values in JavaScript
+1. Infinity
+2. -Infinity
+3. NaN (Not a Number)
+
+Example:
+console.log("abc" / 2);
+
+Output:
+NaN

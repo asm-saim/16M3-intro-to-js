@@ -22,7 +22,7 @@ naME="Saim"
 
 var my current address = "Tigerpass Chittagong"; // x
 var my_current_address = "Tigerpass Chittagong"; // snake case
-var myCurrentAddress = "Tigerpass Chittagong"; // camel case
+var myCurrentAddress = "Tigerpass Chittagong"; // camel case (Recommended)
 var MyCurrentAddress = "Tigerpass Chittagong"; // pascal case
 
 
